@@ -692,10 +692,6 @@ svg path:hover {
         margin-bottom: 20px;
     }
 
-    .hero-section {
-        height: 500px;
-    }
-
     .hero-heading {
         text-align: center;
         font-size: 20px;
@@ -713,5 +709,16 @@ svg path:hover {
         margin-bottom: 1px;
     }
 
+    .test-border {
+        display: flex;
+        flex-flow: wrap;
+        margin-bottom: 30px;
+    }
+
+    .footer-item {
+        flex-wrap: wrap;
+        text-align: center; 
+        margin-bottom: 20px;
+    }
 }  
 
