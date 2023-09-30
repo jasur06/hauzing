@@ -650,15 +650,6 @@ svg path:hover {
     .hauzing-section {
         max-width: 920px;
     }
-
-    .hero-info img {
-        height: 500px;
-        width: 400px;
-    }
-
-    .hero-money {
-        margin-bottom: 8px;
-    }
 }
 
 @media only screen and (max-width: 992px){
@@ -710,8 +701,21 @@ svg path:hover {
         font-size: 20px;
     }
 
+    .hero-info {
+        padding: 0px;
+    }
+
+    .hero-list {
+        margin:1px;
+    }
+
     .hero-section {
         height: 300px;
     }
+
+    .list-item {
+        margin-bottom: 1px;
+    }
+
 }  
 
