@@ -182,7 +182,7 @@ body {
 /* hero section */
 .hero-section {
     position: relative;
-    height: 547px; 
+    height: 100%; 
     margin-bottom: 100px;
     background-image: url('../images/hero.png');
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ body {
 }
 
 .hero-info {
-    padding: 144px 0;
+    padding: 100px 0 0 0;
     color: #FFFfff;
     position: relative;
     text-align: center;
@@ -240,17 +240,13 @@ body {
     margin-bottom: 48px;
 }
 
-.button-read-more {
-    margin-bottom: 94px;
-}
-
 .button-read {
     padding: 12px 40px;
     gap: 10px;
     border-radius: 2px;
     border: 1px solid #FFF;
     background-color:none;
-
+    margin-bottom: 30px;
 }
 /* /hero section */
 
