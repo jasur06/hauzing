@@ -696,6 +696,10 @@ svg path:hover {
         margin-bottom: 20px;
     }
 
+    .hero-section {
+        height: 300px;
+    }
+
     .hero-heading {
         text-align: center;
         font-size: 20px;
@@ -707,10 +711,6 @@ svg path:hover {
 
     .hero-list {
         margin:1px;
-    }
-
-    .hero-section {
-        height: 300px;
     }
 
     .list-item {
