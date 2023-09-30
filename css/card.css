@@ -1,0 +1,136 @@
+.card-header {
+    margin-bottom: 88px;
+} 
+
+.card-item-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.card-list-itme {
+    border-radius: 3px;
+    border: 1px solid var(--border-color, #E6E9EC);
+}
+
+.card-body {
+    padding:  20px;
+}
+
+.card-title {
+    margin-bottom: 16px;
+}
+
+.card-heading {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+.card-data {
+    color: var(--text-color, #696969);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.card-img {
+   position: relative;
+}
+
+.card-ellepse {
+    position: absolute;
+    top: 20px;
+    left: 21px;
+    right: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-feat:hover {
+    background-color:#0D263B;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-for:hover {
+    background-color:#3472a4;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card-feat {
+    padding: 5px 12px;
+    border-radius: 3px;
+    background-color:#0061DF;
+    color:white;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card-for {
+    padding: 5px 12px;
+    border-radius: 3px;
+    background-color: #0D263B;
+    color:white;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.card-smallimg {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+
+.property-list p {
+    color: var(--text-color, #696969);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.card-old__price del {
+    color: var(--text-color, #696969);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /
+}
+
+.footer-icon {
+    display: flex;
+    align-items:center;
+    gap: 30px;
+}
+
+.icon-love {
+    padding: 10px 10px;
+    display: flex;
+    border-radius:60px;
+    background-color: #F6F8F9;
+    cursor: pointer;
+}
+
+.icon-love:hover {
+    background-color:rgb(209, 19, 57);
+    transition: 0.2s linear;
+}

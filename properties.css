@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul,hr {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {   
+    width: 100%;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #0d263b;
+    padding: 16px 0;
+    z-index: 1000;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-top {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 64px;
+    color: white;
+}
+
+.list a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.list a:hover {
+    color:rgb(215, 27, 27);
+}
+
+.button-header{
+    padding: 12px 40px;
+    background-color: #0d263b;
+    color: #FFF;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+}
+  
+.button-header:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button-header:hover{
+    padding-right: 24px;
+    padding-left:20px;
+}
+  
+.button-header:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.header-bottom {
+    margin-top: 75px;
+    background-color:rgb(241, 234, 234);
+    padding: 15px 0;
+}
+
+.button-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+.header-menu {
+    display: flex;
+    flex-grow: 1;
+    position: relative;
+}
+
+.input {
+    border-radius: 4px;
+    border: 1px solid var(--border, #E6E9EC); 
+    width: 100%;
+    padding: 15px 50px;
+    outline: none;
+    border:none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.header-img {
+    position: absolute;
+    top: 15%;
+    left: 30px;
+    transform: translate(-50%);
+}
+
+.button-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    border-radius: 5px;
+    border: 1px solid #e6e9ec;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button-btn:hover {
+    border-radius: 5px;
+    border-color: #0d263b;
+    transition: all .6s ease;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    gap:5px;
+    padding: 12px 40px;
+    background-color:#0061DF;
+    color:white;
+    border-radius: 2px;
+    border: 1px solid var(--color-1, #0061DF);
+    background: var(--color-1, #0061DF);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color:#8fbdfa;
+    transition: all .6s ease;
+    border-radius: 5px;
+}
+
+/* propertie section */
+.propertie-section {
+    margin-bottom: 16px;
+}
+
+.properti-head {
+    padding: 64px 0px;
+}
+
+.properti-head h1 {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px; 
+    letter-spacing: -0.56px;
+}
+
+.properti-head p {
+    text-align: center;
+    color: var(--text-2, #696969);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.properti-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.properti-title p {
+    color: var(--text-2, #696969);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.propertie-sort {
+    color: var(--color-2, #0c0206);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.propertie-sort p {
+    margin-bottom: 5px;
+}
+/*/ propertie section */
+
+/* card section */
+.card-section {
+    margin-bottom: 48px;
+}
+
+.card-Recommended {
+    padding: 64px 0 0;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card-Recommended h2 {
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.56px;
+}
+
+.card-Recommended p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card-button {
+    padding: 48px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-Show {
+    padding: 12px 40px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 2px;
+    background: var(--color-1, #0061DF);
+    color: #FFFFFF;
+}
+
+.btn-Show:hover {
+    background-color:darkcyan;
+    transition: all .3s linear;
+}
+/* /card section */
+
