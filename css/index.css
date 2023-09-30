@@ -651,9 +651,9 @@ svg path:hover {
         max-width: 920px;
     }
 
-    .hero-info {
+    .hero-info img {
         height: 200px;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
     }
 
     .hero-money {
