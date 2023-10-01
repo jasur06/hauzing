@@ -188,66 +188,6 @@ body {
     background-repeat: no-repeat;
     background-size:100%;
 }
-
-.hero-curtain {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 100000;
-}
-
-.hero-info {
-    padding: 100px 0 0 0;
-    color: #FFFfff;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    z-index: 100000;
-}
-
-.hero-heading {
-    margin-bottom: 8px;
-    font-family: Montserrat;
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px; 
-    letter-spacing: -0.88px;
-}
-
-.hero-data {
-    margin-bottom: 24px;
-    position: relative;
-    text-align: center;
-    width: 100%;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-}
-
-.list-item {
-    margin-bottom: 24px;
-    display: flex;
-    justify-content: center;
-}
-
-.hero-money {
-    margin-bottom: 48px;
-}
-
-.button-read {
-    padding: 12px 40px;
-    gap: 10px;
-    border-radius: 2px;
-    border: 1px solid #FFF;
-    background-color:none;
-    margin-bottom: 30px;
-}
 /* /hero section */
 
 /* card Recommended */
@@ -370,7 +310,7 @@ body {
 .hauzm-head {
     
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 38px;
     color: #FFF;
     font-size: 28px;
     font-weight: 600;
@@ -697,12 +637,13 @@ svg path:hover {
 
     .button-menu {
         flex-direction: column;
+        flex-wrap: nowrap;
     }
 
     .bottom-responsive {
         display: flex;
+        flex-direction: column-reverse;
     }
-
 
     .hero-heading {
         text-align: center;
@@ -725,6 +666,22 @@ svg path:hover {
         display: flex;
         flex-flow: wrap;
         margin-bottom: 30px;
+    }
+
+    .hauzing-section {
+        max-width: 400px;
+    }
+
+    .card-list-itme {
+        width: 400px;
+    }
+
+    .card-list-itme {
+        margin-bottom: 30px;
+    }
+
+    .card-2__header {
+        width: 400px;
     }
 
     .footer-item {
