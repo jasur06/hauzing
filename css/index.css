@@ -155,9 +155,9 @@ body {
 }
 
 .button-btn:hover {
-    border-radius: 5px;
+    border-radius: 3px solid;
     border-color: #0d263b;
-    transition: all .6s ease;
+    transition: all .1s ease;
 }
 
 .button {
@@ -628,21 +628,31 @@ svg path:hover {
     }
 
     .list-top{
-        /* display: none; */
+        display: none;
     }
 
     .button-header{
-        /* display: none; */
+        display: none;
     }
 
-    .button-menu {
+    .bottom-menu {
         flex-direction: column;
         flex-wrap: nowrap;
+        background-color:#0D263B;
+    }
+
+    .header-menu {
+        margin-bottom: 20px;
     }
 
     .bottom-responsive {
         display: flex;
         flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .button-btn {
+        border: 2px solid #9fadb8;
     }
 
     .hero-heading {
