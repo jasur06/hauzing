@@ -620,11 +620,9 @@ svg path:hover {
     }
 
     .header-top {
-        max-width: 500px;
-        width: 400px;
-
+        max-width: 540px;
     }
-    
+
     .hero-section {
         height: 712px;
     }
