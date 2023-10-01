@@ -683,30 +683,26 @@ svg path:hover {
         max-width: 540px;
     }
 
-    .header-bottom {
-        max-width: 540px;
-    }
-
-    .button-nav {
-        max-width: 140px;
+    .hero-section {
+        height: 712px;
     }
 
     .list-top{
-        display: none;
+        /* display: none; */
     }
 
     .button-header{
-        display: none;
-    }
-
-    .menu-btn{
-        display: block;
-        flex-wrap: wrap;
+        /* display: none; */
     }
 
     .button-menu {
-        margin-bottom: 20px;
+        flex-direction: column;
     }
+
+    .bottom-responsive {
+        display: flex;
+    }
+
 
     .hero-heading {
         text-align: center;
