@@ -653,6 +653,10 @@ svg path:hover {
         max-width: 720px;
     }
 
+    .header-top {
+        max-width: 720px;
+    }
+
     .list-top{
         gap: 32px;
     }
@@ -673,6 +677,18 @@ svg path:hover {
 @media only screen and (max-width: 768px){
     .container{
         max-width: 540px;
+    }
+
+    .header-top {
+        max-width: 540px;
+    }
+
+    .header-bottom {
+        max-width: 540px;
+    }
+
+    .button-nav {
+        max-width: 140px;
     }
 
     .list-top{
