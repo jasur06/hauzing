@@ -619,8 +619,14 @@ svg path:hover {
         max-width: 540px;
     }
 
+    .header-nav {
+        display: flex;
+        justify-content: center;
+    }
+
     .header-top {
         max-width: 540px;
+        width: 400px;
     }
 
     .hero-section {
