@@ -642,8 +642,8 @@ svg path:hover {
     }
 
     .bottom-menu {
-        /* flex-direction: column; */
-        /* flex-wrap: nowrap; */
+        flex-direction: column;
+        flex-wrap: nowrap;
         background-color:#0D263B;
     }
 
