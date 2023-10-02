@@ -624,9 +624,9 @@ svg path:hover {
         justify-content: center;
     }
 
-    .header-top {
-        max-width: 540px;
-    }
+    /* .header-top {
+        max-width: 400px;
+    } */
 
     .hero-section {
         height: 712px;
@@ -671,17 +671,6 @@ svg path:hover {
         width: 100%;
     }
 
-    .hero-heading {
-        text-align: center;
-        font-size: 20px;
-    }
-
-    .test-border {
-        display: flex;
-        flex-flow: wrap;
-        margin-bottom: 30px;
-    }
-
     .card-item-list {
         display: flex;
         justify-content: center;
@@ -692,7 +681,7 @@ svg path:hover {
     }
 
     .card-2__header {
-        width: 390px;
+        /* width: 390px; */
     }
 
     .category-list {
@@ -701,9 +690,9 @@ svg path:hover {
     }
 
     .footer-item {
-        /* flex-wrap: wrap;
+        flex-wrap: wrap;
         text-align: center; 
-        margin-bottom: 20px; */
+        margin-bottom: 20px; 
     }
 }  
 
