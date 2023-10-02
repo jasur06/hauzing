@@ -624,9 +624,9 @@ svg path:hover {
         justify-content: center;
     }
 
-    /* .header-top {
-        max-width: 400px;
-    } */
+    .header-top {
+        max-width: 100%;
+    } 
 
     .hero-section {
         height: 712px;
