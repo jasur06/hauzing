@@ -653,8 +653,13 @@ svg path:hover {
 
     .bottom-responsive {
         display: flex;
-        /* flex-direction: column-reverse; */
+        flex-direction: column-reverse;
         gap: 10px;
+    }
+
+    .button-nav {
+        display: flex;
+        flex-direction: column;
     }
 
     .button-btn {
