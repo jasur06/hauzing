@@ -642,10 +642,9 @@ svg path:hover {
     }
 
     .bottom-menu {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        /* flex-direction: column; */
+        /* flex-wrap: nowrap; */
         background-color:#0D263B;
-        width: 100%;
     }
 
     .header-menu {
@@ -656,7 +655,6 @@ svg path:hover {
         display: flex;
         flex-direction: column-reverse;
         gap: 10px;
-        width: 100%;
     }
 
     .button-btn {
