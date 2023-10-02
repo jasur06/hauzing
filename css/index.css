@@ -641,14 +641,15 @@ svg path:hover {
         display: none;
     }
 
+    .header-menu {
+        margin-bottom: 20px;
+    }
+
     .bottom-menu {
+        display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         background-color:#0D263B;
-    }
-
-    .header-menu {
-        margin-bottom: 20px;
     }
 
     .bottom-responsive {
