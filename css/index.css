@@ -654,34 +654,27 @@ svg path:hover {
 
     .bottom-responsive {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 10px;
     }
 
     .button-nav {
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
     }
 
     .button-btn {
         border: 2px solid #9fadb8;
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
     }
 
     .hero-heading {
         text-align: center;
         font-size: 20px;
-    }
-
-    .hero-info {
-        padding: 0px;
-    }
-
-    .hero-list {
-        margin:1px;
-    }
-
-    .list-item {
-        margin-bottom: 1px;
     }
 
     .test-border {
