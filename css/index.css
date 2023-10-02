@@ -103,18 +103,14 @@ body {
     right: 10px;
 }
 
+.bottom-menu {
+    display: flex;
+}
+
 .header-bottom {
     margin-top: 75px;
     background-color:rgb(241, 234, 234);
     padding: 15px 0;
-}
-
-.button-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
-    cursor: pointer;
 }
 
 .header-menu {
@@ -143,40 +139,44 @@ body {
     transform: translate(-50%);
 }
 
+.bottom-responsive {
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+
 .button-btn {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 12px 15px;
-    border-radius: 5px;
+    padding: 15px 15px;
     border:none;
     background-color: #fff;
     cursor: pointer;
+    border-radius: 2px;
+   border: 1px solid var(--border, #E6E9EC);
+
 }
 
 .button-btn:hover {
     border-radius: 3px solid;
-    border-color: #0d263b;
     transition: all .1s ease;
 }
 
 .button {
     display: flex;
     align-items: center;
-    gap:5px;
     padding: 12px 40px;
-    background-color:#0061DF;
+    background-color:#083773;
     color:white;
     border-radius: 2px;
-    border: none;
     border: 1px solid var(--color-1, #0061DF);
+    background: var(--color-1, #0061DF);
     cursor: pointer;
 }
 
 .button:hover {
     background-color:#8fbdfa;
     transition: all .6s ease;
-    border-radius: 5px;
 }
 
 /* hero section */
@@ -626,7 +626,7 @@ svg path:hover {
 
     .header-top {
         max-width: 540px;
-        width: 390px;
+        width: 400px;
     }
 
     .hero-section {
