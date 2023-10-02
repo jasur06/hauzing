@@ -619,14 +619,14 @@ svg path:hover {
         max-width: 540px;
     }
 
-    .header-nav {
-        display: flex;
-        justify-content: center;
+    .haeder-logo {
+        width: 200px;
     }
 
-    .header-top {
-        max-width: 100%;
-    } 
+    /* .header-nav {
+        display: flex;
+        justify-content: center;
+    } */
 
     .hero-section {
         height: 712px;
@@ -680,13 +680,13 @@ svg path:hover {
         margin-bottom: 30px;
     }
 
-    .card-2__header {
-        /* width: 390px; */
-    }
-
     .category-list {
         display: flex;
         justify-content: center;
+    }
+
+    .test-border {
+        flex-wrap: wrap;
     }
 
     .footer-item {
